@@ -46,16 +46,22 @@ This file defines the NewsPage widget, which presents a list of news articles. E
 
 ### Key Components:
 
-newsArticles: A list of maps containing article details such as title, image URL, and article URL.
+##### newsArticles:
+A list of maps containing article details such as title, image URL, and article URL.
 
-_openNews: A method that uses the url_launcher package to open a given URL in the external browser.
+#### _openNews:
+A method that uses the url_launcher package to open a given URL in the external browser.
 
-build: A method that constructs the UI, including an AppBar and a ListView.builder to display each news article as a card.
+#### build:
+A method that constructs the UI, including an AppBar and a ListView.builder to display each news article as a card.
 
 ### Dependencies
 flutter/material.dart
+
 url_launcher
-Contributing
+
+### Contributing
+
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
 
 ### License
